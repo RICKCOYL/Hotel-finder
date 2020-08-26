@@ -1,4 +1,4 @@
-body {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -22,6 +22,34 @@ a {
     display: grid;
 }
 
+.white-text {
+    color: #fff;
+}
+
+/* NAVIGATION */
+header {
+    background-color : #d35649;
+    text-align: center;
+}
+
+.right-side-nav {
+    justify-content: center;
+}
+
+.right-side-nav li {
+    margin-right: 50px;
+}
+
+.logo {
+    width: 50px;
+}
+
+
+/* SHOWCASE */
+
+.main-showcase{
+   bac
+}
 
 
 
