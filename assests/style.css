@@ -150,9 +150,21 @@ input {
 
 .footer-input {
     background-color: #000;
-    border: none;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
+.footer-input-label {
+    background-color: #000;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 768px) { }
