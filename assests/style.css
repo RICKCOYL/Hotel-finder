@@ -49,6 +49,10 @@ a {
     color: white;
 }
 
+.right-side-nav li a span {
+    display: none;
+}
+
 
 /* SHOWCASE */
 
@@ -166,6 +170,116 @@ input {
     box-sizing: border-box;
 }
 
+.lower-footer-grid {
+    background-color: gray;
+}
+
+.lower-footer-grid li {
+    margin-right: 15px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-instagram {
+    font-size: 30px;
+    color: white;
+}
 /* MEDIA QUERIES */
-@media (min-width: 768px) { }
-@media (min-width: 1024px) { }
+@media (min-width: 768px) { 
+    /* NAVIGATION */
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* MID SECTION GRID */
+    .mid-section-grid {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        padding: 20px 0;
+    }
+
+    .footer-links-ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .footer-links {
+        border-bottom: none;
+
+    }
+
+    /* NAVIGATION */
+    .main-showcase h1 {
+        top: 50px;
+        font-size: 30px;
+    }
+
+    form {
+        padding: 20px 100px;
+        background-color: honeydew;
+        
+    }
+
+    form input{
+        height: 30px;
+    }
+    
+    form label {
+        height: 28px;
+    }
+    
+}
+@media (min-width: 1024px) { 
+     /* right-side-nav */
+     .right-side-nav li a span {
+        display: block;
+    }
+    /* steps to follow */
+    .steps-to-follow-gird {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    /* sub-cont-about-grid */
+    .sub-cont-about-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* lower-footer-grid */
+    .lower-footer-grid {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    .fa-facebook,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-instagram {
+    font-size: 24px;
+    color: white;
+}
+
+.footer-links-ul {
+    margin: 0 20px;
+}
+
+.footer-links {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+}
+
+.first-footer-section .footer-links-ul .footer-link-logo {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100px;
+    height: 100px;
+
+}
+
+
+}
