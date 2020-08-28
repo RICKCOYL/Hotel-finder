@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* GLOBAL CLASSES */
 
 ul {
@@ -201,9 +202,11 @@ form {
   width: 90%;
   margin: auto;
 }
+
 .hotel-grid-div {
   width: 30%;
 }
+
 .hotel-grid-img {
   width: 100%;
 }
@@ -213,8 +216,6 @@ form {
 }
 
 /* about.html */
-.about-hotel-section {
-}
 
 .balance-in-mid {
   width: 80%;
@@ -249,10 +250,6 @@ form {
     margin: 0;
   }
 
-  .footer-links {
-    border-bottom: none;
-  }
-
   /* NAVIGATION */
   body {
     overflow-x: hidden;
@@ -267,6 +264,7 @@ form {
     padding: 20px 100px;
     background-color: honeydew;
   }
+
   .main-showcase form a {
     border: none;
     height: 45px;
