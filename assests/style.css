@@ -17,10 +17,6 @@ a {
     display: grid;
 }
 
-.relative {
-    position: relative;
-}
-
 .white {
     color: #fff;
 }
@@ -45,7 +41,7 @@ a {
 }
 
 .logo {
-    width: 50px;
+    width: 80px;
     color: white;
 }
 
@@ -61,7 +57,7 @@ a {
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
-   height: 400px;
+   height: 500px;
    
 }
 
@@ -71,19 +67,31 @@ a {
 }
 
 form {
-    width: 40%;
+    width: 80%;
     margin: 0 auto;
-    top: 90px;
+    top: 100px;
     flex-direction: column;
+    background-color: #d9d9d9;
+    padding: 50px 70px;
+    border-radius: 10px;
+}
+
+
+.main-showcase form a {
+  padding: 10px 45%;
+  text-align: center;
+}
+
+.main-showcase form input {
+    padding: 20px 100px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 .search {
     padding: 5px 10px; 
     margin-top: 10px;
-}
-
-input {
-    margin-bottom: 15px;
 }
 
 /* STEPS TO FOLLOW */
@@ -185,7 +193,33 @@ input {
     font-size: 30px;
     color: white;
 }
-/* MEDIA QUERIES */
+
+.top-footer-logo {
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+/* RESULTS.HTML */
+.hotel-eg {
+    width: 90%;
+    margin: auto;
+}
+.hotel-grid-div {
+    width: 30%;
+}
+.hotel-grid-img {
+    width: 100%;
+}
+
+.hotel-grid .about-hotel .about-hotel-content {
+    justify-content: space-between;
+}
+
+
+
+/* =============== MEDIA QUERIES ========== */
 @media (min-width: 768px) { 
     /* NAVIGATION */
     nav {
@@ -211,9 +245,13 @@ input {
     }
 
     /* NAVIGATION */
+    body {
+       overflow-x: hidden;
+    }
+
     .main-showcase h1 {
         top: 50px;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     form {
@@ -221,13 +259,16 @@ input {
         background-color: honeydew;
         
     }
-
-    form input{
-        height: 30px;
+    .main-showcase form a {
+        border: none;
+        height: 45px;
+        width: 100%;
     }
-    
-    form label {
-        height: 28px;
+
+    .main-showcase form input {
+        padding: 20px 100px;
+        height: 40px;
+        width: 100%;
     }
 
     /* footer */
@@ -243,14 +284,66 @@ input {
         height: 100px;
     
     }
+
+    .footer-links-ul .li-footer-logo {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        top: 20px;
+        left: 20%;
+    }
+
+    /* hotel-grid */
+    .hotel-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+    }
+
+    .hotel-grid-img {
+        width: 100px;
+        height: 100px;
+        padding-right: 10px;
+    }
     
     
 }
+
 @media (min-width: 1024px) { 
      /* right-side-nav */
      .right-side-nav li a span {
         display: block;
     }
+
+    /* main-showcase */
+    .main-showcase h1 {
+        top: 50px;
+        font-size: 56px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: 0 auto;
+        padding: 50px;
+    }
+
+    .main-showcase form a {
+       padding: 10px 10%;
+       text-align: center;
+       width: 0;
+       font-size: 18px;
+    }
+    
+    .main-showcase form input {
+        padding: 20px 100px;
+        height: 40px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+
     /* steps to follow */
     .steps-to-follow-gird {
         display: grid;
@@ -281,6 +374,28 @@ input {
 .footer-links-ul {
     margin: 0 20px;
 }
+
+  /* hotel-grid */
+
+  .hotel-eg {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin-bottom: 50px;
+}
+
+.hotel-grid-img {
+    width: 150px;
+    height: 150px;
+    padding-right: 50px;
+}
+
 
 
 
