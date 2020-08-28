@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 
-# Online shop (index and search page) - Built time
+# Online hotel directory (index and search page) - Built time
 
 > This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a Crafts(handmades) website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
 
@@ -10,7 +10,7 @@
 
 ## Website Screenshot
 
-![screenshot](./.github/app-screenshot-index.png)
+![screenshot](./assests/images/project-screenshot.png)
 
 The project is built using HTML and CSS/SCSS with an extensive use of the grid and flex propreties.
 
