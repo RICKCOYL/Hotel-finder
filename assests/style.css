@@ -67,13 +67,14 @@ a {
 }
 
 form {
-  width: 80%;
+  width: 99%;
   margin: 0 auto;
   top: 100px;
   flex-direction: column;
   background-color: #d9d9d9;
   padding: 50px 70px;
   border-radius: 10px;
+  justify-content: center;
 }
 
 .main-showcase form a {
@@ -218,7 +219,7 @@ form {
 /* about.html */
 
 .balance-in-mid {
-  width: 80%;
+  width: 96%;
   margin: 50px auto 0 auto;
 }
 
@@ -274,9 +275,14 @@ form {
   .main-showcase form input {
     padding: 20px 100px;
     height: 40px;
-    width: 100%;
   }
 
+  /* form */
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
   /* footer */
   .footer-links {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
