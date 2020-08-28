@@ -264,6 +264,8 @@ form {
   form {
     padding: 20px 100px;
     background-color: honeydew;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .main-showcase form a {
@@ -277,12 +279,6 @@ form {
     height: 40px;
   }
 
-  /* form */
-
-  form {
-    width: 80%;
-    margin: 0 auto;
-  }
   /* footer */
   .footer-links {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
