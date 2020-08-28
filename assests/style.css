@@ -1,4 +1,6 @@
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* GLOBAL CLASSES */
 
 ul {
@@ -217,7 +219,23 @@ form {
     justify-content: space-between;
 }
 
+/* about.html */
+.about-hotel-section {
+    
+}
 
+.balance-in-mid {
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+
+.slide-showcase img{
+    height: 500px;
+}
+
+.description p {
+    line-height: 1em;
+}
 
 /* =============== MEDIA QUERIES ========== */
 @media (min-width: 768px) { 
@@ -394,6 +412,12 @@ form {
     width: 150px;
     height: 150px;
     padding-right: 50px;
+}
+
+/* about.html */
+.description-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
