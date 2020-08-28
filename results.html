@@ -1,219 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/7940b5dc55.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assests/style.css" />
+    <title>Results</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/7940b5dc55.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assests/style.css">
-    <title> Results</title>
-</head>
-
-<body>
+  <body>
     <!-- NAVIGATION -->
     <header class="bg-color-orange text-center">
-        <nav class="d-md-flex justify-content-md-between">
+      <nav class="d-md-flex justify-content-md-between">
+        <ul class="left-side-nav">
+          <li>
+            <a href="./index.html">
+              <img class="logo" src="./assests/images/logo.png" alt="" />
+            </a>
+          </li>
+        </ul>
 
-            <ul class="left-side-nav">
-                <li>
-                    <a href="./index.html">
-                        <img class="logo" src="./assests/images/logo.png" alt="">
-
-                    </a>
-                </li>
-            </ul>
-
-
-
-            <ul class="right-side-nav flex mb-0 mt-md-3">
-                <li>
-                    <a class="d-lg-flex" href="">
-                        <i class="fas fa-search text-white mt-lg-1 mr-lg-2">
-
-                        </i>
-                        <span class="text-white">FIND A HOTEL</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="d-lg-flex" href="">
-                        <i class="far fa-user text-white mt-lg-1 mr-lg-2"></i>
-                        <span class="text-white">CONTACT US</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="d-lg-flex" href="">
-                        <i class="fas fa-rss text-white mt-lg-1 mr-lg-2">
-
-                        </i>
-                        <span class="text-white">BLOG</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="d-lg-flex" href="">
-                        <i class="fas fa-bars text-white mt-lg-1 mr-lg-2"></i>
-                        <span class="text-white">MENU</span>
-                    </a>
-                </li>
-            </ul>
-
-        </nav>
+        <ul class="right-side-nav flex mb-0 mt-md-3">
+          <li>
+            <a class="d-lg-flex" href="">
+              <i class="fas fa-search text-white mt-lg-1 mr-lg-2"> </i>
+              <span class="text-white">FIND A HOTEL</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-lg-flex" href="">
+              <i class="far fa-user text-white mt-lg-1 mr-lg-2"></i>
+              <span class="text-white">CONTACT US</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-lg-flex" href="">
+              <i class="fas fa-rss text-white mt-lg-1 mr-lg-2"> </i>
+              <span class="text-white">BLOG</span>
+            </a>
+          </li>
+          <li>
+            <a class="d-lg-flex" href="">
+              <i class="fas fa-bars text-white mt-lg-1 mr-lg-2"></i>
+              <span class="text-white">MENU</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <section>
-        <div class="mt-5">
-            <h2 class="text-center nav-color">3 Hotels found For This Location</h2>
+      <div class="mt-5">
+        <h2 class="text-center nav-color">3 Hotels found For This Location</h2>
+      </div>
+
+      <div class="hotel-grid">
+        <div class="flex hotel-eg border p-3 my-4 rounded shadow-lg">
+          <div class="hotel-grid-div">
+            <a href="./about.html">
+              <img
+                class="hotel-grid-img"
+                src="./assests/images/marriott-hotel.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="about-hotel w-100 ml-2">
+            <div class="about-hotel-content flex justify-content-between">
+              <div class="w-30">
+                <h5 class="nav-color">
+                  <a href="./about.html">Hotel Benco</a>
+                </h5>
+                <p>Westlands</p>
+              </div>
+              <div class="w-10">
+                <p>$5</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="hotel-grid">
-            <div class="flex hotel-eg border p-3 my-4 rounded shadow-lg">
-                <div class="hotel-grid-div">
-                    <a href="./about.html">
-                        <img class="hotel-grid-img" src="./assests/images/marriott-hotel.jpg" alt="">
-                    </a>
-                </div>
-                <div class="about-hotel w-100 ml-2">
-                    <div class="about-hotel-content flex justify-content-between">
-                        <div class="w-30">
-                            <h5 class="nav-color"><a href="./about.html">Hotel Benco</a> </h5>
-                            <p>Westlands</p>
-                        </div>
-                        <div class="w-10">
-                            <p>$5</p>
-                        </div>
-                    </div>
-                </div>
-
+        <div class="flex hotel-eg border p-3 my-4 rounded shadow-lg">
+          <div class="hotel-grid-div">
+            <a href="./about.html">
+              <img
+                class="hotel-grid-img"
+                src="./assests/images/marriott-hotel.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="about-hotel w-100 ml-2">
+            <div class="about-hotel-content flex justify-content-between">
+              <div class="w-30">
+                <h5 class="nav-color">
+                  <a href="./about.html">Hotel Benco</a>
+                </h5>
+                <p>Westlands</p>
+              </div>
+              <div class="w-10">
+                <p>$5</p>
+              </div>
             </div>
-            <div class="flex hotel-eg border p-3 my-4 rounded shadow-lg">
-                <div class="hotel-grid-div">
-                    <a href="./about.html">
-                        <img class="hotel-grid-img" src="./assests/images/marriott-hotel.jpg" alt="">
-                    </a>
-                </div>
-                <div class="about-hotel w-100 ml-2">
-                    <div class="about-hotel-content flex justify-content-between">
-                        <div class="w-30">
-                            <h5 class="nav-color"><a href="./about.html">Hotel Benco</a> </h5>
-                            <p>Westlands</p>
-                        </div>
-                        <div class="w-10">
-                            <p>$5</p>
-                        </div>
-                    </div>
-                </div>
-
+          </div>
+        </div>
+        <div class="flex hotel-eg border p-3 my-4 rounded shadow-lg">
+          <div class="hotel-grid-div">
+            <a href="./about.html">
+              <img
+                class="hotel-grid-img"
+                src="./assests/images/marriott-hotel.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="about-hotel w-100 ml-2">
+            <div class="about-hotel-content flex justify-content-between">
+              <div class="w-30">
+                <h5 class="nav-color">
+                  <a href="./about.html">Hotel Benco</a>
+                </h5>
+                <p>Westlands</p>
+              </div>
+              <div class="w-10">
+                <p>$5</p>
+              </div>
             </div>
-            <div class="flex hotel-eg border p-3 my-4 rounded shadow-lg">
-                <div class="hotel-grid-div">
-                    <a href="./about.html">
-                        <img class="hotel-grid-img" src="./assests/images/marriott-hotel.jpg" alt="">
-                    </a>
-                </div>
-                <div class="about-hotel w-100 ml-2">
-                    <div class="about-hotel-content flex justify-content-between">
-                        <div class="w-30">
-                            <h5 class="nav-color"><a href="./about.html">Hotel Benco</a> </h5>
-                            <p>Westlands</p>
-                        </div>
-                        <div class="w-10">
-                            <p>$5</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer>
-        <section class="first-footer-section">
-            <div class="">
-                <div class="w-50 mx-auto d-md-none text-center pt-5">
-                    <p>
-                        <img class="top-footer-logo" src="./assests/images/logo.png" alt="">
-                    </p>
-                </div>
-                <ul
-                    class="text-white footer-links-ul p-md-0 justify-content-center py-lg-4 align-items-center container-fluid">
-                    <li class="py-3 px-lg-3 px-md-1 footer-links">HOME</li>
-                    <li class="py-3 px-lg-3 px-md-1 footer-links">SEARCH</li>
-                    <li class="py-3 px-lg-3 px-md-1 footer-links">ABOUT US</li>
-                    <li class="py-3 px-lg-3 px-md-1 footer-links">ADVERTISE</li>
-                    <li class="rounded-circle footer-link-logo ">
-                        <img class="li-footer-logo d-none d-md-block position-relative" src="./assests/images/logo.png"
-                            alt="">
-                    </li>
-                    <li class="py-3 px-lg-3 px-md-1 footer-links">FACEBOOK</li>
-                    <li class="py-3 px-lg-3 px-md-1 footer-links">TWITTER</li>
-                    <li class="py-3 px-lg-3 px-md-1 footer-links">BLOG</li>
-                    <li class="py-3 px-lg-3 px-md-1 footer-links">GOOGLE +</li>
-                </ul>
+      <section class="first-footer-section">
+        <div class="">
+          <div class="w-50 mx-auto d-md-none text-center pt-5">
+            <p>
+              <img
+                class="top-footer-logo"
+                src="./assests/images/logo.png"
+                alt=""
+              />
+            </p>
+          </div>
+          <ul
+            class="text-white footer-links-ul p-md-0 justify-content-center py-lg-4 align-items-center container-fluid"
+          >
+            <li class="py-3 px-lg-3 px-md-1 footer-links">HOME</li>
+            <li class="py-3 px-lg-3 px-md-1 footer-links">SEARCH</li>
+            <li class="py-3 px-lg-3 px-md-1 footer-links">ABOUT US</li>
+            <li class="py-3 px-lg-3 px-md-1 footer-links">ADVERTISE</li>
+            <li class="rounded-circle footer-link-logo">
+              <img
+                class="li-footer-logo d-none d-md-block position-relative"
+                src="./assests/images/logo.png"
+                alt=""
+              />
+            </li>
+            <li class="py-3 px-lg-3 px-md-1 footer-links">FACEBOOK</li>
+            <li class="py-3 px-lg-3 px-md-1 footer-links">TWITTER</li>
+            <li class="py-3 px-lg-3 px-md-1 footer-links">BLOG</li>
+            <li class="py-3 px-lg-3 px-md-1 footer-links">GOOGLE +</li>
+          </ul>
+        </div>
+
+        <div class="sub-cont-about-grid text-white">
+          <div class="text-center mt-5">
+            <h4 class="my-3">SUBSCRIBE</h4>
+            <div>
+              <input
+                id="input"
+                class="footer-input"
+                type="text"
+                placeholder="johndoe@example.com"
+              />
+              <label class="footer-input-label" for="input">Subscribe</label>
             </div>
+          </div>
+          <div class="text-center mt-5 container-fluid">
+            <h4>CONTACT</h4>
+            <p>
+              Get in touch with us at
+              <a class="nav-color" href="">johndoe@example.com</a> and one of
+              our engineers will get back to you as fast as possible.
+            </p>
+          </div>
+          <div class="text-center mt-5 container-fluid">
+            <h4>ABOUT</h4>
+            <p class="mb-0">
+              Star Rentals is an online directory of rental properties in
+              Cyprus. It is also a platform that connects homeowners with
+              potential tenants <a class="nav-color" href="">Learn more...</a>
+            </p>
+          </div>
+        </div>
+      </section>
 
-
-            <div class="sub-cont-about-grid text-white">
-                <div class="text-center mt-5">
-                    <h4 class="my-3">SUBSCRIBE</h4>
-                    <div>
-                        <input class="footer-input" type="text" placeholder="johndoe@example.com">
-                        <label class="footer-input-label" for="">Subscribe</label>
-                    </div>
-                </div>
-                <div class="text-center mt-5 container-fluid">
-                    <h4>CONTACT</h4>
-                    <p>Get in touch with us at <a class="nav-color" href="">johndoe@example.com</a> and one of our
-                        engineers will get back to you
-                        as
-                        fast as possible.</p>
-                </div>
-                <div class="text-center mt-5 container-fluid">
-                    <h4>ABOUT</h4>
-                    <p class="mb-0">Star Rentals is an online directory of rental properties in Cyprus. It is also a
-                        platform that
-                        connects homeowners with potential tenants <a class="nav-color" href="">Learn more...</a> </p>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="lower-footer-grid">
-            <div class="pt-3">
-                <ul class="flex">
-                    <li>
-                        <a href="">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fab fa-twitter">
-
-                            </i>
-                        </a>
-                    </li>
-                    <li><a href="">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href=""><i class="fab fa-instagram">
-
-                            </i>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-            <div class="container-fluid px-lg-0 text-lg-right">
-                <p class="mb-0 mt-lg-3 mr-lg-3">© Trip Advisor INC. ALL RIGHTS RESERVED. the world leader in online
-                    travel and related services.
-                </p>
-            </div>
-        </section>
-
+      <section class="lower-footer-grid">
+        <div class="pt-3">
+          <ul class="flex">
+            <li>
+              <a href="">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"> </i> </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"> </i> </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-fluid px-lg-0 text-lg-right">
+          <p class="mb-0 mt-lg-3 mr-lg-3">
+            © Trip Advisor INC. ALL RIGHTS RESERVED. the world leader in online
+            travel and related services.
+          </p>
+        </div>
+      </section>
     </footer>
-</body>
-
+  </body>
 </html>
