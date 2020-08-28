@@ -4,30 +4,28 @@
 
 # Online hotel directory
 
-> This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a Crafts(handmades) website using HTML, CSS3/SCSS, Bootstrap, and Font awesome.
+> This is a capstone project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a hotel directory website built using HTML, CSS3, Bootstrap, and Font awesome.
 
-## Watch a video presentation of the project [here](https://www.loom.com/share/1ecb819a678e4b3f8681da87415597cf). The website is built using this [mockup](https://www.behance.net/gallery/25563385/PatashuleKE)
+## Watch a video presentation of the project [here](https://www.loom.com/share/c38f42ac4f94435da8f01fb6c11457c4). The website is built using this [mockup](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## Website Screenshot
 
 ![screenshot](./assests/images/project-screenshot.png)
 
-The project is built using HTML and CSS/SCSS with an extensive use of the grid and flex propreties.
+The project is built using HTML and CSS with an extensive use of the grid and flex propreties.
 
 ## Built With
 
 - HTML
-- CSS3/SCSS
+- CSS3
 - Bootstrap
 - Font awesome icons
 - Webhint/Stylelint linters
-- NPM scripts for testing and running the SCSS changes
+- NPM scripts for testing
 
 ## Live Demo
 
 [Live Demo ](https://raw.githack.com/RICKCOYL/Directory-of-Schools/development/index.html)
-
-(You can also navigate between pages using the navigation links and the search form.)
 
 ## To get a local copy up and running follow these simple example steps.
 
