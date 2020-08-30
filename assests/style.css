@@ -231,12 +231,20 @@ form {
   line-height: 1em;
 }
 
+.map {
+  margin: 20px 0 50px 0;
+}
+
 /* =============== MEDIA QUERIES ========== */
 @media (min-width: 768px) {
   /* NAVIGATION */
   nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .bg-color-blue {
+    background-color: rgb(34, 34, 240);
   }
 
   /* MID SECTION GRID */
@@ -266,17 +274,32 @@ form {
     background-color: honeydew;
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 50px;
   }
 
   .main-showcase form a {
     border: none;
     height: 45px;
     width: 100%;
+    padding: 10px 0 10px 20%;
+    width: 0;
+    font-size: 18px;
   }
 
   .main-showcase form input {
     padding: 20px 100px;
     height: 40px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .search {
+    position: relative;
+    right: 90px;
   }
 
   /* footer */
@@ -320,6 +343,10 @@ form {
     display: block;
   }
 
+  .bg-color-orange {
+    background-color: #dd675a;
+  }
+
   /* main-showcase */
   .main-showcase h1 {
     top: 50px;
@@ -346,6 +373,11 @@ form {
     height: 40px;
     width: 100%;
     margin-bottom: 15px;
+  }
+
+  .search {
+    position: relative;
+    right: 40px;
   }
 
   /* steps to follow */
