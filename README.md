@@ -50,6 +50,10 @@ Install and run a live server plugin on you IDE/Text editor and run it from the 
 - Twitter: [@rickcoyl](https://twitter.com/Rickcoyl)
 - Linkedin: [rick-oburu](https://www.linkedin.com/in/rick-oburu-8627591a4/)
 
+## acknowledgements
+
+All images where downloaded from unsplash.com
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
