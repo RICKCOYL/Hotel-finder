@@ -1,0 +1,434 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* GLOBAL CLASSES */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.white {
+  color: #fff;
+}
+
+.nav-color {
+  color: #d35649;
+}
+
+.bg-color-orange {
+  background-color: #dd675a;
+}
+
+/* NAVIGATION */
+
+.right-side-nav {
+  justify-content: center;
+}
+
+.right-side-nav li {
+  margin-right: 50px;
+}
+
+.logo {
+  width: 80px;
+  color: white;
+}
+
+.right-side-nav li a span {
+  display: none;
+}
+
+/* SHOWCASE */
+
+.main-showcase {
+  background-image: url(./images/showcase-image.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.main-showcase h1 {
+  top: 50px;
+  font-size: 35px;
+}
+
+form {
+  width: 99%;
+  margin: 0 auto;
+  top: 100px;
+  flex-direction: column;
+  background: rgba(229, 233, 229, 0.9);
+  padding: 50px 70px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.main-showcase form a {
+  padding: 10px 45%;
+  text-align: center;
+}
+
+.main-showcase form input {
+  padding: 20px 100px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.search {
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+/* STEPS TO FOLLOW */
+.steps-to-follow-header-div {
+  margin-top: 30px;
+}
+
+.steps-to-follow-header {
+  font-size: 23px;
+}
+
+.steps-img {
+  width: 50px;
+}
+
+.fa-umbrella-beach {
+  font-size: 40px;
+}
+
+/* MID SECTION */
+.mid-sec-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.mid-sec-button {
+  width: 20%;
+}
+
+.mid-section-grid {
+  height: auto;
+}
+
+.mid-sec-div h3 {
+  font-size: 18px;
+}
+
+.mid-sec-div p {
+  font-size: 16px;
+}
+
+.mid-sec-div button {
+  font-size: 18px;
+}
+
+.resorts-rounded-div {
+  height: auto;
+}
+
+.mid-section-grid-2 {
+  background-color: #70696f;
+}
+
+.mid-section-grid-3 {
+  background-color: rgb(21, 201, 201);
+}
+
+/* FOOTER */
+.first-footer-section {
+  background-color: #000;
+}
+
+.footer-links {
+  border-bottom: 1px solid #fff;
+}
+
+.footer-input {
+  background-color: #000;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.footer-input-label {
+  background-color: #000;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.lower-footer-grid {
+  background-color: gray;
+}
+
+.lower-footer-grid li {
+  margin-right: 15px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-instagram {
+  font-size: 30px;
+  color: white;
+}
+
+.top-footer-logo {
+  width: 100px;
+  height: 100px;
+}
+
+/* RESULTS.HTML */
+.hotel-eg {
+  width: 90%;
+  margin: auto;
+}
+
+.hotel-grid-div {
+  width: 30%;
+}
+
+.hotel-grid-img {
+  width: 100%;
+}
+
+.hotel-grid .about-hotel .about-hotel-content {
+  justify-content: space-between;
+}
+
+/* about.html */
+
+.balance-in-mid {
+  width: 96%;
+  margin: 50px auto 0 auto;
+}
+
+.slide-showcase img {
+  height: 500px;
+}
+
+.description p {
+  line-height: 1em;
+}
+
+.map {
+  margin: 20px 0 50px 0;
+}
+
+/* =============== MEDIA QUERIES ========== */
+@media (min-width: 768px) {
+  /* NAVIGATION */
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bg-color-blue {
+    background-color: rgb(34, 34, 240);
+  }
+
+  /* MID SECTION GRID */
+  .mid-section-grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 20px 0;
+  }
+
+  .footer-links-ul {
+    display: flex;
+    margin: 0;
+  }
+
+  /* NAVIGATION */
+  body {
+    overflow-x: hidden;
+  }
+
+  .main-showcase h1 {
+    top: 50px;
+    font-size: 40px;
+  }
+
+  form {
+    padding: 20px 100px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-showcase form a {
+    border: none;
+    height: 45px;
+    width: 80px;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .main-showcase form input {
+    padding: 20px 100px;
+    height: 40px;
+    width: 800px;
+    margin-bottom: 15px;
+  }
+
+  .search {
+    position: relative;
+    right: 25px;
+  }
+
+  /* footer */
+  .footer-links {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+  }
+
+  .first-footer-section .footer-links-ul .footer-link-logo {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100px;
+    height: 100px;
+  }
+
+  .footer-links-ul .li-footer-logo {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    top: 20px;
+    left: 20%;
+  }
+
+  /* hotel-grid */
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .hotel-grid-img {
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* right-side-nav */
+  .right-side-nav li a span {
+    display: block;
+  }
+
+  .bg-color-orange {
+    background-color: #dd675a;
+  }
+
+  /* main-showcase */
+  .main-showcase h1 {
+    top: 50px;
+    font-size: 56px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
+  .main-showcase form a {
+    padding: 10px 10%;
+    text-align: center;
+    width: 0;
+    font-size: 18px;
+  }
+
+  .main-showcase form input {
+    padding: 20px 100px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .search {
+    position: relative;
+    right: 40px;
+  }
+
+  /* steps to follow */
+  .steps-to-follow-gird {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  /* sub-cont-about-grid */
+  .sub-cont-about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* lower-footer-grid */
+  .lower-footer-grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+
+  .fa-facebook,
+  .fa-twitter,
+  .fa-linkedin-in,
+  .fa-instagram {
+    font-size: 24px;
+    color: white;
+  }
+
+  .footer-links-ul {
+    margin: 0 20px;
+  }
+
+  /* hotel-grid */
+
+  .hotel-eg {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin-bottom: 50px;
+  }
+
+  .hotel-grid-img {
+    width: 150px;
+    height: 150px;
+    padding-right: 50px;
+  }
+
+  /* about.html */
+  .description-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
